@@ -34,7 +34,7 @@ fn main() {
     let mut operation = String::new();
     println!("Enter operation: ");
     std::io::stdin().read_line(&mut operation).expect("Failed to read line");
-    let operation: char = operation.trim().parse().expect("Please type a number!");
+    let operation: char = operation.trim().parse::<char>().expect("Please type a number!");
 
     // match operation
     let result = match operation {
