@@ -20,6 +20,11 @@ impl PartyTrick for Magician {
     }
 }
 
+fn invite_to_perform(trickster : Box<dyn PartyTrick>){
+    println!("You are invited to perform!");
+    trickster.perform();
+}
+
 fn main() {
 
     let b = Box::new(5);
