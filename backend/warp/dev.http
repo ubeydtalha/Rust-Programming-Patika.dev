@@ -1,0 +1,5 @@
+
+
+# Quick Dev
+Get http://127.0.0.1:3030/todos/66
+X-Auth-Token : 123.exp.signature
